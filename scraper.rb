@@ -2,7 +2,7 @@ require 'httparty'
 require 'json'
 require 'discordrb'
 
-token = "Nzc4OTk5Mjc4MTUyNTgxMTMw.X7aJnQ.xOy19yke7SyBc0XkQorLQJivZvs"
+token = "bot_token_here"
 
 bot = Discordrb::Commands::CommandBot.new token: "#{token}", prefix: "."
 
